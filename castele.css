@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+#container{
+    width: 100%;
+    height: auto;
+    background-color: azure;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+#harta{
+    position: relative;
+    width: 80%;
+    height: 500px;
+    background-color: lightgray;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+}
+
+#take-info{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: lightgreen;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#generare-harta{
+    position: relative;
+    width: 80%;
+    height: 500px;
+    background-color: lightgray;
+    margin: auto;
+    left: 0;
+    right: 0;
+    margin-top: 10px;
+}
+
+#show-info{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: lightgreen;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 80%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.date{
+    margin-right: 60px;
+    border: 1px solid red;
+    font-size: 20px;
+}
+
+.date:last-child{
+    margin-right: 0px;
+}
